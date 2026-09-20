@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "name": "research-scout",
+  "display_name": "Research Scout",
+  "version": "1.0.0",
+  "description": "Evidence-only research collection with topic-based persistent memory and modular provider wrappers.",
+  "entrypoint": "SKILL.md",
+  "documentation": "README.md",
+  "manual": "MANUAL.md",
+  "memory_directory": "memory",
+  "tools_directory": "tools",
+  "capabilities": ["evidence_collection", "citation_capture", "persistent_topic_memory", "deduplication", "provider_wrappers"],
+  "restrictions": ["no_analysis", "no_recommendations", "no_synthesis", "no_fabricated_sources"],
+  "license": "MIT"
+}
